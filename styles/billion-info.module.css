@@ -1,0 +1,83 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  align-items: center;
+}
+
+.squareImage {
+  border-radius: 20px;
+  max-width: 100%;
+  place-self: center;
+}
+
+.name {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.country {
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+.netWorth {
+  /* display: flex;
+  flex-direction: column; */
+  font-size: large;
+  margin-bottom: 20px;
+  /* gap: 20px; */
+}
+
+.industries {
+  font-size: large;
+  margin-bottom: 30px;
+}
+
+.bio {
+  font-size: large;
+  line-height: 30px;
+}
+
+.bio-column {
+  grid-column: 1/3;
+}
+
+/* .assetContainer-column {
+  grid-column: 1/3;
+} */
+
+.assetContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  max-width: 90%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.financialAsset {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.financialAssetItem {
+  margin-bottom: 15px;
+}
+
+.financialName {
+  gap: 50px;
+  width: 80%;
+  font-size: x-large;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

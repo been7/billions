@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.billion {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.billion img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.billion h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.billion p {
+  margin: 5px 0;
+}
