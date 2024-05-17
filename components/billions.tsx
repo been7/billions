@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import styles from "../styles/billions.module.css";
 
-interface IBillionsProps {
+export interface IBillionsProps {
   id: string;
   name: string;
   squareImage: string;
