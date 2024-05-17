@@ -1,4 +1,4 @@
-import Billion, { IBillionsProps } from "@/components/billions";
+import Billion from "@/components/billions";
 import styles from "../../styles/billions.module.css";
 
 export const API_URL = "https://billions-api.nomadcoders.workers.dev/";
@@ -13,7 +13,7 @@ export default async function Home() {
   const billions = await getBillions();
   return (
     <div className={styles.container}>
-      {billions.map((billion: IBillionsProps) => (
+      {billions.map((billion: any) => (
         <Billion
           key={billion.id}
           id={billion.id}
