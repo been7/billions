@@ -38,7 +38,7 @@ export default async function BillionInfo({ id }: { id: string }) {
         <p className={styles.financialName}>FINANCIAL ASSETS</p>
         <div className={styles.assetContainer}>
           {billion.financialAssets.map((asset: IFinancialAsset) => (
-            <div className={styles.financialAsset}>
+            <div className={styles.financialAsset} key={billion.id}>
               <p className={styles.financialAssetItem}>{asset.ticker}</p>
               <p className={styles.financialAssetItem}>
                 {asset.numberOfShares}
