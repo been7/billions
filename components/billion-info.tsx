@@ -1,4 +1,4 @@
-import { API_URL } from "@/app/(home)/page";
+import { API_URL } from "@/utils/api";
 import shortId from "shortid";
 import styles from "../styles/billion-info.module.css";
 

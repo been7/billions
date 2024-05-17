@@ -1,13 +1,6 @@
 import Billion from "@/components/billions";
 import styles from "../../styles/billions.module.css";
-
-export const API_URL = "https://billions-api.nomadcoders.workers.dev/";
-
-async function getBillions() {
-  const response = await fetch(API_URL);
-  const json = await response.json();
-  return json;
-}
+import { getBillions } from "../../utils/api";
 
 export default async function Home() {
   const billions = await getBillions();

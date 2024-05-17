@@ -1,5 +1,5 @@
-import { API_URL } from "@/app/(home)/page";
 import BillionInfo from "@/components/billion-info";
+import { API_URL } from "@/utils/api";
 import { Suspense } from "react";
 
 interface IParams {
